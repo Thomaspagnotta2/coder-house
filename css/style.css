@@ -1,39 +1,42 @@
+a:link, a:visited, a:active {
+    text-decoration:none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.home {
+    border-radius: 8px;
+    width: 100%;
+    height: auto; 
+    
+}
+
 .home {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-
 }
 
-
-@media (min-width: 768px) {
-    .home {
-        grid-template-columns: repeat(3, 1fr);
-    }
-}
-
-@media (max-width: 768px) {
-    .home {
-        grid-template-columns: repeat(1, 1fr);
-    }
-}
-
-@media (max-width: 768px)
-
-@media (min-width: 768px) {
-    .zapages {
-        grid-template-columns: repeat(3, 1fr);
-    }
-}
-
-@media (min-width: 768px) {
-    .zapages {
-        grid-template-columns: repeat(1, 1fr);
-    }
-}
+i.bi.bi-search {
+    font-size: 25px;
+  }
 
 .home nav{
     position: fixed;
  }
+
+ @media (max-width: 768px) {
+    .home {
+        width: 100px;
+        height: 100px;
+    }
+ }
+
+ 
+
 
 
 
@@ -55,14 +58,18 @@ main section img {
 /*PARTIMOS DE UN ORDEN JERARQUICO PARA LLEGAR A LA IMAGEN=SELECTORES*/
 .links li {
 /*DENTRO APLICAREMOS PROPIEDADES Y A ESAS PRIPIEDADES SUS RESPECTIVOS VALORES*/
+   text-align: center;
    display: inline-block; 
    padding: 10px;
    font-size: 23px;
    margin-left: 215px;
+   font-family: sans-serif;
+   color: black;
 
 }
 
 .PRODUCTOS h1 {
+    text-decoration: underline;
     font-size: 30px;
     text-align: center;
     margin-left: 0px;
@@ -70,19 +77,25 @@ main section img {
 
 
 .Categorias h1 {
-    padding: 40px;
-    margin-left: 60px;
+    padding: 0px;
+    margin-left: 0px;
 }
 
-.Categorias li {
+.cattitle {
+    float: left;
     margin-bottom: 15px;
     margin-left: 118px;
 }
 
 .linea-negra {
+    display: auto;
     margin-left: 720px;
     border: 1px solid black;
     width: 25%;
+}
+
+.banner {
+
 }
 
 .img1 {
