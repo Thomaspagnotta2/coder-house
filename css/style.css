@@ -1,0 +1,150 @@
+.home {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+
+
+@media (min-width: 768px) {
+    .home {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .home {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media (max-width: 768px)
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.zapages {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+@media (min-width: 768px) {
+    .zapages {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (min-width: 768px) {
+    .zapages {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+
+
+
+/*
+.=LLAMADO DE UNA CLASE
+#=LLAMADO DE UN ID
+
+los selectores, se llaman por su nombre
+*/
+
+/*SPV= SELECTOR - PROPIEDAD - VALOR*/
+/*LOS SELECTORES SON TODAS NUESTROS HTML*/
+
+main section img {    
+    height: 500px;
+    margin-left: 375px;
+}
+
+/*PARTIMOS DE UN ORDEN JERARQUICO PARA LLEGAR A LA IMAGEN=SELECTORES*/
+.links li {
+/*DENTRO APLICAREMOS PROPIEDADES Y A ESAS PRIPIEDADES SUS RESPECTIVOS VALORES*/
+   display: inline-block; 
+   padding: 10px;
+   font-size: 23px;
+   margin-left: 215px;
+
+}
+
+.PRODUCTOS h1 {
+    font-size: 30px;
+    text-align: center;
+    margin-left: 0px;
+}
+
+
+.Categorias h1 {
+    padding: 40px;
+    margin-left: 60px;
+}
+
+.Categorias li {
+    margin-bottom: 15px;
+    margin-left: 118px;
+}
+
+.linea-negra {
+    margin-left: 720px;
+    border: 1px solid black;
+    width: 25%;
+}
+
+.img1 {
+    display: block;
+    margin: 0 auto;
+    margin-left: 10px;
+    height: 20px;
+}
+
+
+
+.Zapatillas img {
+    display: block;
+    margin: 0 auto;
+    margin-left: 400px;
+    margin-top: 40px;
+    margin-right: 0 auto;
+    height: 200px;
+}
+
+.ACCESORIOSACC img {
+    display: block;
+    margin: 0 auto;
+    margin-left: 400px;
+    margin-right: 50px;
+    height: 300px;
+}
+
+
+
+.Accesorioscat h1 {
+    
+    padding: 40px;
+    margin-left: 60px;
+}
+
+.Accesorioscat li {
+    margin-bottom: 15px;
+    margin-left: 118px;
+}
+
+.IndumentariaIMG img {
+    display: inline-block;
+    margin-right: 250px;
+    height: 300px;
+}
+
+
+
+
+/*TIPOS DE MEDIDAS
+%= TAMAÑO RELATIVO
+PX= TAMAÑO FIJO
+VH=
+VM=
+*/
